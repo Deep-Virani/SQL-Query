@@ -1,0 +1,76 @@
+1 . Create Table Query ?
+
+--->   create table Student(S_id number(3),S_name varchar(50),S_age number(2),S_DOB varchar(30),S_Email varchar(70),S_mobile_number number(10),S_marks_Upto_700 number(3),S_field varchar(20));
+
+
+
+2 . Insert Value In Table ?
+
+--->   insert into Student values(1,'Deep',17,'11/03/2005','deepvirani5@gmail.com',9662381228,620,'Bca');
+
+
+
+3 . Name Started From A to Z ?
+
+--->   select * from Student where S_name like ' A to Z % ';
+
+
+
+4 . And Syntax ?
+
+--->   select column1,column2 frome Table_Name where condition1 and condition2;
+
+
+
+5 . Or Syntax ?
+
+--->   select column1,column2 frome Table_Name where condition1 or condition2;
+
+
+
+6 . Not Syntax ?
+
+--->   select column1,column2 frome Table_Name where not condition;
+
+
+
+7 . Delete Syntax ?
+
+--->   delete form Table_Name where condition;
+
+
+
+8 . Aggregate Functions ?
+
+--->  select min(column_name) frome Table_name;
+             max
+             sum
+             count
+             avg
+
+
+
+9 . Inner Join Syntax ?
+
+--->   select column_name(s) from TABLE 1 inner join TABLE 2 on table1.column_name = table2.column_name;
+
+
+
+10 . Left Outer Join Syntax ?
+
+--->   select column_name(s) from TABLE 1 Left join TABLE 2 on table1.column_name = table2.column_name;
+
+
+
+11 . Right Outer Join Syntax ?
+
+--->  select column_name(s) from TABLE 1 Right join TABLE 2 on table1.column_name = table2.column_name;
+
+
+
+12 . Union Syntax ?
+
+--->  select column_name(s) from TABLE 1 union column_name(s) from TABLE 2;
+
+
+
